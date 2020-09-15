@@ -1,0 +1,59 @@
+body {
+	background-color: #a79086;
+	color: #fff
+}
+
+.main-block {
+	display: block;
+	margin: 0 auto;
+	margin-top: 4%;
+	width: 80%;
+	border: .1em double black;
+	border-radius: 1em;
+	box-shadow: 0 .3em 4.5em 2.8em #111
+}
+.box-buttom {
+	margin-top: 4em;
+	text-align: left;
+	margin-left: 20%
+}
+
+.box-btn-change {
+	float: right;
+	margin: 3em;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.btn-change {
+	transition-duration: .6s;
+	color: #fff;
+	text-decoration: none;
+	margin: 0 auto;
+	border: none;
+	font-family: 'Arial';
+	font-size: 1.3em;
+    border-radius: 1.1em;
+    padding: .4em 1em;
+    background-color: #a79086;
+    box-shadow: 0 .3em 2.5em .8em #111;
+}
+.btn-change:hover {
+	transition-duration: .2s;
+	padding: .4em 3em;
+	box-shadow: 0 .3em 2.5em 1.1em #111;
+	cursor: pointer;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+p {
+	font-size: 1.3em
+}
+h1, p {
+	text-shadow: .1em .4em .7em black
+}
+input {
+	margin-top: 3em;
+	box-shadow: .1em .3em 1.9em .8em #000
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculate Deposits in Bank</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" type="text/css" href="css/deposits.css">
+</head>
+<body>
+		<div class="main-block" align="center">
+
+			<h1>Deposit calculator</h1>
+
+			<input type="range" min="50000" max="9000000" step="10000" value="100000" class="slider" id="sliderSum"> 
+			<p>Сумма вклада: <span id="valueSumD">---</span> ₽</p>
+
+			<input type="range" min="1" max="30" step=".1" value="5" class="slider" id="userPercentD"> 
+			<p>Процентная ставка <span id="valuePercent">---</span> %</p>
+
+			<input type="range" min="1" max="72" step="1" value="6" class="slider" id="userTerm_changeD">
+			<p>Срок вклада: <span id="userTerm_outputD">---</span> (мес.)</p>
+
+				<div class="box-btn-change">
+					<a href="index.html">
+						<button class="btn-change">Расчитать кредит</button>
+					</a>
+				</div>
+
+			<div class="box-buttom">
+				<p>Процентный доход: <span id="total_percent_payD" class="number_space"> --- </span> ₽</p>
+				<p>Итого процентная выплата: <span id="total_percentD" class="number_space"> --- </span> ₽ </p>
+			</div>
+
+		</div>
+
+		<script type="text/javascript" src="js/deposits.js"></script>
+</body>
+</html>
